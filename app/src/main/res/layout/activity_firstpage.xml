@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFAF4E"
+    tools:context=".Firstpage">
+    <TextView android:id="@+id/textView3"
+        android:layout_width="58dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/original_surfer"
+        android:shadowColor="#000000"
+        android:text="Skip"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"/>
+    <Button
+        android:layout_width="12dp"
+        android:layout_height="5dp"
+        android:width="24dp"
+        android:background="#FFC107"
+        android:maxHeight="5dp"
+        app:backgroundTint="#80FFFFFF"
+        app:circularflow_radiusInDP="100dp"
+        app:cornerRadius="100dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.561" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.074"/>
+    <Button android:layout_width="24dp" android:layout_height="5dp" android:width="24dp" android:background="#FFC107" android:maxHeight="5dp" app:backgroundTint="#FFFFFF" app:circularflow_radiusInDP="100dp" app:cornerRadius="100dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.48" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.075"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/original_surfer" android:shadowColor="#000000" android:text="High image quality " android:textColor="#000000" android:textSize="32sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.613"/>
+
+    <TextView
+        android:layout_width="295dp"
+        android:layout_height="91dp"
+        android:fontFamily="@font/original_surfer"
+        android:text="We have created ready-made composition settings that you can apply to create high quality photos"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+    <ImageView android:layout_width="202dp" android:layout_height="107dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.497" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.974" app:srcCompat="@drawable/image"/>
+    <Button android:id="@+id/buttonSign" android:layout_width="81dp" android:layout_height="64dp" android:background="#00FFFFFF" android:fontFamily="@font/original_surfer" android:shadowColor="#ABF6F5F5" android:text=">" android:textColor="#040303" android:textSize="32sp" app:backgroundTint="#F7FFFFFF" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.946"/>
+    <ImageView android:layout_width="340dp" android:layout_height="256dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.497" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.297" app:srcCompat="@drawable/img"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
